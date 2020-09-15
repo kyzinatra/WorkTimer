@@ -1,0 +1,7 @@
+
+#los
+*.log
+
+#modules
+/node_modules/
+/dist/

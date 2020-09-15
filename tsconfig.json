@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": true,
+		"target": "ESNext",
+		"jsx": "react",
+		"allowJs": true,
+		"sourceMap": true
+	},
+	"include": ["./src/**/*.ts", "./src/**/*.tsx", "src/js/redusers.js"]
+}

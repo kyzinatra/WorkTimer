@@ -1,0 +1,22 @@
+@import "../../sass/utils/vars"
+
+.btn
+  font-size: 1.9rem
+  padding: 10px 40px
+  border-radius: 5px
+  cursor: pointer
+  @media screen and (max-width: $tableWidth)
+    padding: 20px 50px
+  &:active
+    box-shadow: inset -6px -5px 25px -20px black
+  &__dark
+    background-color: #353535
+    color: #eeeeee
+    &:active
+      box-shadow: inset -6px -5px 25px -20px white
+  &__danger
+    background-color: #b13333
+    color: #eeeeee
+  &__warning
+    background-color: #eecf44
+    color: #353535

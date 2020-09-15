@@ -1,0 +1,19 @@
+* text=auto
+
+
+# text
+*.html text
+*.js text
+*.css text
+
+# Windows files
+*.sln eol=crlf
+*.bat eol=crlf
+
+# Unix files
+*.sh eol=lf
+
+#binary
+*.jpg binary
+*.png binary
+*.gif binary
